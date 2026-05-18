@@ -1,0 +1,6 @@
+[build]
+builder = "NIXPACKS"
+watchPaths = ["goal-portal/**"]
+
+[deploy]
+startCommand = "cd goal-portal && npm start"
